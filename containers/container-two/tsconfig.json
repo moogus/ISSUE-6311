@@ -16,7 +16,7 @@
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"target": "esnext",
-		"types": ["node", "jest", "@testing-library/jest-dom"]
+		"types": []
 	},
 	"exclude": ["node_modules"],
 	"ts-node": {
