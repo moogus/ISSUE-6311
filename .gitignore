@@ -1,0 +1,18 @@
+# Intellij
+.idea
+*.iml
+.vscode/
+*.log
+.history/
+
+node_modules
+coverage
+
+.DS_Store
+
+.npmrc
+**/.env
+**/node_modules
+.turbo
+.watchmanconfig
+*.code-workspace

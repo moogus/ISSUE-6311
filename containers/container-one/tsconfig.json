@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"declaration": true,
+		"esModuleInterop": true,
+		"jsx": "react-jsx",
+		"lib": ["dom", "esnext"],
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"noImplicitAny": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"target": "esnext",
+		"types": ["node", "jest", "@testing-library/jest-dom"]
+	},
+	"exclude": ["node_modules"],
+	"ts-node": {
+		"compilerOptions": {
+			"module": "commonjs"
+		}
+	}
+}

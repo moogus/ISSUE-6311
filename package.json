@@ -1,0 +1,26 @@
+{
+	"name": "@website/main",
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"components/*",
+			"containers/*",
+			"constants/*",
+			"types/*",
+			"utilities/*"
+		]
+	},
+	"scripts": {
+		"tsc": "turbo run tsc --filter=[origin/main] --no-daemon"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"turbo": "1.5.6",
+		"typescript": "5.3.3"
+	},
+	"engines": {
+		"node": "18.*",
+		"yarn": "1.*"
+	},
+	"engineStrict": true
+}
