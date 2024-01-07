@@ -13,7 +13,7 @@
 yarn #install all packages
 ```
 **Edit a package**
-#### [component-one](#components/component-one/index.ts)
+#### [component-one](https://github.com/moogus/ISSUE-6311/blob/main/components/component-one/index.ts)
 ```
  export const fooBar = { foo: 'foo', bar: 'bar' }; // => edit this line
  export const fooBar = { foo: 'foo', baz: 'bar' }; // => to this 
